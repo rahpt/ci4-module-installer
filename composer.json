@@ -1,5 +1,5 @@
 {
-    "name": "RahPT/ci4-modules-loader",
+    "name": "rahpt/ci4-modules-loader",
     "description": "Carregador automático para módulos no CodeIgniter 4",
     "type": "library",
     "license": "private",
