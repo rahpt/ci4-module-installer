@@ -2,7 +2,7 @@
     "name": "rahpt/ci4-modules-loader",
     "description": "Carregador automático para módulos no CodeIgniter 4",
     "type": "library",
-    "license": "private",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "ModulesLoader\\": "src/"
