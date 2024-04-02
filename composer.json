@@ -1,0 +1,20 @@
+{
+    "name": "RahPT/ci4-modules-loader",
+    "description": "Carregador automático para módulos no CodeIgniter 4",
+    "type": "library",
+    "license": "private",
+    "autoload": {
+        "psr-4": {
+            "ModulesLoader\\": "src/"
+        }
+    },
+    "require": {
+        "composer/installers": "^1.11"
+    },
+    "extra": {
+        "installer-paths": {
+            "app/Modules/{$name}/": ["type:codeigniter-module"]
+        }
+    }
+}
+
